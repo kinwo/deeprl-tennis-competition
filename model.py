@@ -26,8 +26,6 @@ class Actor(nn.Module):
         self.seed = torch.manual_seed(seed)
         self.fc1 = nn.Linear(state_size, fc1_units)
         
-#         self.bn1 = nn.BatchNorm1d(fc1_units)
-        
         self.fc2 = nn.Linear(fc1_units, fc2_units)
         self.fc3 = nn.Linear(fc2_units, action_size)
         self.reset_parameters()
@@ -62,8 +60,6 @@ class Critic(nn.Module):
         self.seed = torch.manual_seed(seed)
         self.dropout = nn.Dropout(p=dropout)
         self.fcs1 = nn.Linear(state_size, fcs1_units)
-        
-#         self.bn1 = nn.BatchNorm1d(fcs1_units)
         
         self.fc2 = nn.Linear(fcs1_units+action_size, fc2_units)
         self.fc3 = nn.Linear(fc2_units, 1)
