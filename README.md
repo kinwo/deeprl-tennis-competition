@@ -1,7 +1,6 @@
 # Competitive Tennis Agents Training with Deep Reinforcement Learning DDPG
 
-![Agent Playing]
-(https://github.com/kinwo/deeprl-tennis-competition/blob/master/AgentPlaying2.png)
+![Agent Playing](https://github.com/kinwo/deeprl-tennis-competition/blob/master/AgentPlaying2.png)
 
 ## Introduction
 This repository contains a Deep Deterministic Policy Gradients (DDPG) agent running in the Unity ML Agent Tennis (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment. It can be used to train and evaluate the result of the training.
