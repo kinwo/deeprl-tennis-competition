@@ -9,6 +9,7 @@ It is an extension of my previous project [Learning Continuous Control in Deep R
 
 The DDPG agent is implemented in Python 3 using PyTorch.
 
+The provided model weights is trained in AWS EC2 p2.xlarge GPU instance in about 1 hr 15 mins.
 
 ### Environment
 The 3D environment contains 2 tennis agents who can move forward, backward or jump.
@@ -68,5 +69,6 @@ jupyter notebook
 
 To start training, simply open *Tennis.ipynb* in Jupyter Notebook and follow the instructions there:
 
+## Trained model Weights
 Trained model weights is included for quickly running the agent and seeing the result in Unity ML Agent.
 Simply skip the training step and run the last step of the *Tennis.ipynb*
